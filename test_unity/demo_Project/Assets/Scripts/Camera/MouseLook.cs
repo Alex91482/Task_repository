@@ -13,7 +13,9 @@ public class MouseLook : MonoBehaviour
 	//переменная для угла поворота по вертикали
 	private float _rotationX = 0;
 
-	public enum RotationAxes{		MouseXAndY = 0,
+	public enum RotationAxes
+	{
+		MouseXAndY = 0,
 		MouseX = 1,
 		MouseY = 2
 	}
